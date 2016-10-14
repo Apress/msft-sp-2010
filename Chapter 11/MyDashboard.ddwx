@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<ScorecardModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DocumentVersion="2000" SiteCollectionUrl="http://sp2010" WebsiteUrl="" LastModified="2010-02-23T01:55:23.916238-05:00">
+  <RepositoryListsInWorkspace>
+    <RepositoryList>
+      <Location siteUrlValue="/" listUrlValue="/Data Connections" />
+      <SupportedTypes>PpsDataSource</SupportedTypes>
+      <Title>Data Connections</Title>
+      <ListId>3e7a69c7-8f96-433f-93c9-17b96c3affbd</ListId>
+    </RepositoryList>
+    <RepositoryList>
+      <Location siteUrlValue="/" listUrlValue="/Lists/PerformancePoint Content" />
+      <SupportedTypes>PpsDashboard PpsScorecard PpsKpi PpsReportView PpsIndicator PpsFilter</SupportedTypes>
+      <Title>PerformancePoint Content</Title>
+      <ListId>bbe0a999-8479-4f0d-8d6c-13dce677f812</ListId>
+    </RepositoryList>
+  </RepositoryListsInWorkspace>
+  <ListWorkspaceItemMappingTable>
+    <Keys>
+      <guid>86557b7c-fd3c-431b-9434-675c74acd939</guid>
+      <guid>f639a23e-3043-4e12-8805-70175a3c6b40</guid>
+    </Keys>
+    <Values>
+      <RepositoryList>
+        <Location siteUrlValue="/" listUrlValue="/Data Connections" />
+        <SupportedTypes>PpsDataSource</SupportedTypes>
+        <Title>Data Connections</Title>
+        <ListId>3e7a69c7-8f96-433f-93c9-17b96c3affbd</ListId>
+      </RepositoryList>
+      <RepositoryList>
+        <Location siteUrlValue="/" listUrlValue="/Lists/PerformancePoint Content" />
+        <SupportedTypes>PpsDashboard PpsScorecard PpsKpi PpsReportView PpsIndicator PpsFilter</SupportedTypes>
+        <Title>PerformancePoint Content</Title>
+        <ListId>bbe0a999-8479-4f0d-8d6c-13dce677f812</ListId>
+      </RepositoryList>
+    </Values>
+  </ListWorkspaceItemMappingTable>
+  <DirtyList />
+  <DashboardsInWorkspace />
+  <DataSourcesInWorkspace>
+    <DataSource Folder="" CreatedBy="WINSMARTS\administrator" CreatedDate="2010-02-23T01:40:02" ContentType="PpsDataSource" LastModified="2010-02-23T01:51:26" ModifiedBy="WINSMARTS\administrator" CheckedOutTo="" SourceName="ADOMD.NET" ServerName="SP2010" DatabaseName="Adventure Works DW 2008R2" CubeName="Adventure Works" CubeDisplayName="Adventure Works" FormattingDimensionName="" FormattingDimensionDisplayName="" FormattingDimensionType="Measure" ConnectionString="" Roles="" UseConnectionString="false" ConnectionContext="ConnectAsSharedUser" PassUserNameAsAdomdCustomData="false" ReadOnly="false" MinutesToCache="10" ServerMajorVersion="10" SubTypeId="ADOMD.NET">
+      <Properties>
+        <BpmProperty xsi:type="BpmPropertyText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Name" DisplayName="Name" Description="Name Description" Required="false" Visible="true" Text="AdventureWorks" />
+        <BpmProperty xsi:type="BpmPropertyLongText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Description" DisplayName="Description" Description="Description Description" Required="false" Visible="true" Text="" />
+        <BpmProperty xsi:type="BpmPropertyUser" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Owner" DisplayName="Person Responsible" Description="Person Responsible Description" Required="false" Visible="true" Login="" />
+      </Properties>
+      <Comments />
+      <Version Major="3" Minor="0" />
+      <Location ItemUrl="/Data Connections/3_.000" ItemType="DataSource" ItemGuid="5ec2a5c7-11cc-4774-b8ed-750ee9bf5a6c" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="3e7a69c7-8f96-433f-93c9-17b96c3affbd" />
+      <CustomTimeIntelligenceSettings>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;TimeIntelligenceMdxSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Enabled&gt;true&lt;/Enabled&gt;
+  &lt;ReferenceLevel&gt;None&lt;/ReferenceLevel&gt;
+  &lt;ReferenceDateTime&gt;0001-01-01T00:00:00&lt;/ReferenceDateTime&gt;
+  &lt;LevelBindings /&gt;
+&lt;/TimeIntelligenceMdxSettings&gt;</CustomTimeIntelligenceSettings>
+      <DataTableMapping DateAggregationType="Year" CalendarStartMonth="0">
+        <ColumnMappings />
+      </DataTableMapping>
+    </DataSource>
+  </DataSourcesInWorkspace>
+  <ElementsInWorkspace>
+    <ElementsByLocation>
+      <Keys>
+        <string>/Data Connections</string>
+        <string>/Lists/PerformancePoint Content</string>
+      </Keys>
+      <Values>
+        <ArrayOfFirstClassElement>
+          <FirstClassElement xsi:type="DataSource" Folder="" CreatedBy="WINSMARTS\administrator" CreatedDate="2010-02-23T01:40:02" ContentType="PpsDataSource" LastModified="2010-02-23T01:51:26" ModifiedBy="WINSMARTS\administrator" CheckedOutTo="" SourceName="ADOMD.NET" ServerName="SP2010" DatabaseName="Adventure Works DW 2008R2" CubeName="Adventure Works" CubeDisplayName="Adventure Works" FormattingDimensionName="" FormattingDimensionDisplayName="" FormattingDimensionType="Measure" ConnectionString="" Roles="" UseConnectionString="false" ConnectionContext="ConnectAsSharedUser" PassUserNameAsAdomdCustomData="false" ReadOnly="false" MinutesToCache="10" ServerMajorVersion="10" SubTypeId="ADOMD.NET">
+            <Properties>
+              <BpmProperty xsi:type="BpmPropertyText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Name" DisplayName="Name" Description="Name Description" Required="false" Visible="true" Text="AdventureWorks" />
+              <BpmProperty xsi:type="BpmPropertyLongText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Description" DisplayName="Description" Description="Description Description" Required="false" Visible="true" Text="" />
+              <BpmProperty xsi:type="BpmPropertyUser" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Owner" DisplayName="Person Responsible" Description="Person Responsible Description" Required="false" Visible="true" Login="" />
+            </Properties>
+            <Comments />
+            <Version Major="3" Minor="0" />
+            <Location ItemUrl="/Data Connections/3_.000" ItemType="DataSource" ItemGuid="5ec2a5c7-11cc-4774-b8ed-750ee9bf5a6c" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="3e7a69c7-8f96-433f-93c9-17b96c3affbd" />
+            <CustomTimeIntelligenceSettings>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;TimeIntelligenceMdxSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Enabled&gt;true&lt;/Enabled&gt;
+  &lt;ReferenceLevel&gt;None&lt;/ReferenceLevel&gt;
+  &lt;ReferenceDateTime&gt;0001-01-01T00:00:00&lt;/ReferenceDateTime&gt;
+  &lt;LevelBindings /&gt;
+&lt;/TimeIntelligenceMdxSettings&gt;</CustomTimeIntelligenceSettings>
+            <DataTableMapping DateAggregationType="Year" CalendarStartMonth="0">
+              <ColumnMappings />
+            </DataTableMapping>
+          </FirstClassElement>
+        </ArrayOfFirstClassElement>
+        <ArrayOfFirstClassElement>
+          <FirstClassElement xsi:type="ReportView" Folder="" CreatedBy="WINSMARTS\administrator" CreatedDate="2010-02-23T01:53:08" ContentType="PpsReportView" LastModified="2010-02-23T01:55:24" ModifiedBy="WINSMARTS\administrator" CheckedOutTo="" TypeName="AnalyticChart" RenderClientSide="true" ConfiguredViewId="00000000-0000-0000-0000-000000000000" SubTypeId="AnalyticChart" RendererClassName="Microsoft.PerformancePoint.Analytics.ServerRendering.Reports.Analytics.AnalyticChart.AnalyticChartViewCtrl, Microsoft.PerformancePoint.Scorecards.ServerRendering, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+            <Properties>
+              <BpmProperty xsi:type="BpmPropertyText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Name" DisplayName="Name" Description="Name Description" Required="false" Visible="true" Text="AdventureWorks Products" />
+              <BpmProperty xsi:type="BpmPropertyLongText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Description" DisplayName="Description" Description="Description Description" Required="false" Visible="true" Text="" />
+              <BpmProperty xsi:type="BpmPropertyUser" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Owner" DisplayName="Person Responsible" Description="Person Responsible Description" Required="false" Visible="true" Login="" />
+            </Properties>
+            <Comments />
+            <Version Major="2" Minor="0" />
+            <Location ItemUrl="/Lists/PerformancePoint Content/3_.000" ItemType="ReportView" ItemGuid="81858a7b-95e2-45b5-ba81-77d64caa06e7" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="bbe0a999-8479-4f0d-8d6c-13dce677f812" />
+            <ScorecardLocation ItemUrl="" />
+            <CustomData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;OLAPReportView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FormatDimensionUniqueName="[Measures]"&gt;
+  &lt;QueryData&gt;
+    &lt;Parameters xmlns="http://performancepoint.microsoft.com/OLAPQueryData" /&gt;
+    &lt;DataSourceLocation ItemUrl="/Data Connections/3_.000" ItemType="DataSource" ItemGuid="5ec2a5c7-11cc-4774-b8ed-750ee9bf5a6c" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="3e7a69c7-8f96-433f-93c9-17b96c3affbd" xmlns="http://performancepoint.microsoft.com/OLAPQueryData" /&gt;
+    &lt;MDX xmlns="http://performancepoint.microsoft.com/OLAPQueryData" /&gt;
+  &lt;/QueryData&gt;
+  &lt;QueryState&gt;
+    &lt;Axes xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Filter&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Columns&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns=""&gt;
+            &lt;Item&gt;
+              &lt;Key&gt;
+                &lt;string&gt;[Geography].[Geography]&lt;/string&gt;
+              &lt;/Key&gt;
+              &lt;Value&gt;
+                &lt;MemberSetFormula FilterEmpty="false" HierarchyType="Standard" Hierarchize="false" Distinct="false" HierarchyName="[Geography].[Geography]"&gt;
+                  &lt;Operations&gt;
+                    &lt;SetOperation xsi:type="AddDefaultMemberSetOp"&gt;
+                      &lt;FilterValue1&gt;0&lt;/FilterValue1&gt;
+                      &lt;FilterValue2&gt;0&lt;/FilterValue2&gt;
+                      &lt;FilterType&gt;0&lt;/FilterType&gt;
+                    &lt;/SetOperation&gt;
+                  &lt;/Operations&gt;
+                &lt;/MemberSetFormula&gt;
+              &lt;/Value&gt;
+            &lt;/Item&gt;
+          &lt;/SerializableDictionary&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Rows&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns=""&gt;
+            &lt;Item&gt;
+              &lt;Key&gt;
+                &lt;string&gt;[Product].[Product Categories]&lt;/string&gt;
+              &lt;/Key&gt;
+              &lt;Value&gt;
+                &lt;MemberSetFormula FilterEmpty="false" HierarchyType="Standard" Hierarchize="false" Distinct="false" HierarchyName="[Product].[Product Categories]"&gt;
+                  &lt;Operations&gt;
+                    &lt;SetOperation xsi:type="AddDefaultMemberSetOp"&gt;
+                      &lt;FilterValue1&gt;0&lt;/FilterValue1&gt;
+                      &lt;FilterValue2&gt;0&lt;/FilterValue2&gt;
+                      &lt;FilterType&gt;0&lt;/FilterType&gt;
+                    &lt;/SetOperation&gt;
+                  &lt;/Operations&gt;
+                &lt;/MemberSetFormula&gt;
+              &lt;/Value&gt;
+            &lt;/Item&gt;
+          &lt;/SerializableDictionary&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Pages&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Sections&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Chapters&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+    &lt;/Axes&gt;
+    &lt;IsEnabled xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;true&lt;/IsEnabled&gt;
+    &lt;UnknownFilterParameter xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;false&lt;/UnknownFilterParameter&gt;
+    &lt;ShowDatasourceFormatting xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;true&lt;/ShowDatasourceFormatting&gt;
+    &lt;DataSourceLocation ItemUrl="/Data Connections/3_.000" ItemType="DataSource" ItemGuid="5ec2a5c7-11cc-4774-b8ed-750ee9bf5a6c" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="3e7a69c7-8f96-433f-93c9-17b96c3affbd" xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query" /&gt;
+  &lt;/QueryState&gt;
+  &lt;ReportViewData&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;AnalyticChartReportView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;NumericFormats /&amp;gt;
+  &amp;lt;Font&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Tahoma&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;GraphicsUnit&amp;gt;Point&amp;lt;/GraphicsUnit&amp;gt;
+    &amp;lt;Size&amp;gt;8&amp;lt;/Size&amp;gt;
+    &amp;lt;Style&amp;gt;Regular&amp;lt;/Style&amp;gt;
+  &amp;lt;/Font&amp;gt;
+  &amp;lt;FontColor&amp;gt;NamedColor:Black&amp;lt;/FontColor&amp;gt;
+  &amp;lt;BackgroundColor&amp;gt;NamedColor:White&amp;lt;/BackgroundColor&amp;gt;
+  &amp;lt;PlotAreaBackColor&amp;gt;ARGBColor:255:255:255:255&amp;lt;/PlotAreaBackColor&amp;gt;
+  &amp;lt;Legend&amp;gt;
+    &amp;lt;BackColor&amp;gt;ARGBColor:255:255:255:255&amp;lt;/BackColor&amp;gt;
+    &amp;lt;Font&amp;gt;
+      &amp;lt;FontFamily&amp;gt;Tahoma&amp;lt;/FontFamily&amp;gt;
+      &amp;lt;GraphicsUnit&amp;gt;Point&amp;lt;/GraphicsUnit&amp;gt;
+      &amp;lt;Size&amp;gt;8&amp;lt;/Size&amp;gt;
+      &amp;lt;Style&amp;gt;Regular&amp;lt;/Style&amp;gt;
+    &amp;lt;/Font&amp;gt;
+    &amp;lt;FontColor&amp;gt;NamedColor:Black&amp;lt;/FontColor&amp;gt;
+  &amp;lt;/Legend&amp;gt;
+&amp;lt;/AnalyticChartReportView&amp;gt;&lt;/ReportViewData&gt;
+  &lt;ParentReportViewLocation ItemUrl="" /&gt;
+  &lt;ShowInformationBar&gt;false&lt;/ShowInformationBar&gt;
+&lt;/OLAPReportView&gt;</CustomData>
+            <EndPoints>
+              <EndPoint Category="None" UniqueName="[Geography].[Geography]" DisplayName="Geography" AcceptsMultipleFilterLinks="false" />
+              <EndPoint Category="None" UniqueName="[Product].[Product Categories]" DisplayName="Product Categories" AcceptsMultipleFilterLinks="false" />
+            </EndPoints>
+            <BeginPoints />
+          </FirstClassElement>
+        </ArrayOfFirstClassElement>
+      </Values>
+    </ElementsByLocation>
+  </ElementsInWorkspace>
+  <FiltersInWorkspace />
+  <ReportViewsInWorkspace>
+    <ReportView Folder="" CreatedBy="WINSMARTS\administrator" CreatedDate="2010-02-23T01:53:08" ContentType="PpsReportView" LastModified="2010-02-23T01:55:24" ModifiedBy="WINSMARTS\administrator" CheckedOutTo="" TypeName="AnalyticChart" RenderClientSide="true" ConfiguredViewId="00000000-0000-0000-0000-000000000000" SubTypeId="AnalyticChart" RendererClassName="Microsoft.PerformancePoint.Analytics.ServerRendering.Reports.Analytics.AnalyticChart.AnalyticChartViewCtrl, Microsoft.PerformancePoint.Scorecards.ServerRendering, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Properties>
+        <BpmProperty xsi:type="BpmPropertyText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Name" DisplayName="Name" Description="Name Description" Required="false" Visible="true" Text="AdventureWorks Products" />
+        <BpmProperty xsi:type="BpmPropertyLongText" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Description" DisplayName="Description" Description="Description Description" Required="false" Visible="true" Text="" />
+        <BpmProperty xsi:type="BpmPropertyUser" UniqueName="8dd07d4d87794510afdb1f07664359bc_Element_Owner" DisplayName="Person Responsible" Description="Person Responsible Description" Required="false" Visible="true" Login="" />
+      </Properties>
+      <Comments />
+      <Version Major="2" Minor="0" />
+      <Location ItemUrl="/Lists/PerformancePoint Content/3_.000" ItemType="ReportView" ItemGuid="81858a7b-95e2-45b5-ba81-77d64caa06e7" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="bbe0a999-8479-4f0d-8d6c-13dce677f812" />
+      <ScorecardLocation ItemUrl="" />
+      <CustomData>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;OLAPReportView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FormatDimensionUniqueName="[Measures]"&gt;
+  &lt;QueryData&gt;
+    &lt;Parameters xmlns="http://performancepoint.microsoft.com/OLAPQueryData" /&gt;
+    &lt;DataSourceLocation ItemUrl="/Data Connections/3_.000" ItemType="DataSource" ItemGuid="5ec2a5c7-11cc-4774-b8ed-750ee9bf5a6c" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="3e7a69c7-8f96-433f-93c9-17b96c3affbd" xmlns="http://performancepoint.microsoft.com/OLAPQueryData" /&gt;
+    &lt;MDX xmlns="http://performancepoint.microsoft.com/OLAPQueryData" /&gt;
+  &lt;/QueryData&gt;
+  &lt;QueryState&gt;
+    &lt;Axes xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Filter&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Columns&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns=""&gt;
+            &lt;Item&gt;
+              &lt;Key&gt;
+                &lt;string&gt;[Geography].[Geography]&lt;/string&gt;
+              &lt;/Key&gt;
+              &lt;Value&gt;
+                &lt;MemberSetFormula FilterEmpty="false" HierarchyType="Standard" Hierarchize="false" Distinct="false" HierarchyName="[Geography].[Geography]"&gt;
+                  &lt;Operations&gt;
+                    &lt;SetOperation xsi:type="AddDefaultMemberSetOp"&gt;
+                      &lt;FilterValue1&gt;0&lt;/FilterValue1&gt;
+                      &lt;FilterValue2&gt;0&lt;/FilterValue2&gt;
+                      &lt;FilterType&gt;0&lt;/FilterType&gt;
+                    &lt;/SetOperation&gt;
+                  &lt;/Operations&gt;
+                &lt;/MemberSetFormula&gt;
+              &lt;/Value&gt;
+            &lt;/Item&gt;
+          &lt;/SerializableDictionary&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Rows&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns=""&gt;
+            &lt;Item&gt;
+              &lt;Key&gt;
+                &lt;string&gt;[Product].[Product Categories]&lt;/string&gt;
+              &lt;/Key&gt;
+              &lt;Value&gt;
+                &lt;MemberSetFormula FilterEmpty="false" HierarchyType="Standard" Hierarchize="false" Distinct="false" HierarchyName="[Product].[Product Categories]"&gt;
+                  &lt;Operations&gt;
+                    &lt;SetOperation xsi:type="AddDefaultMemberSetOp"&gt;
+                      &lt;FilterValue1&gt;0&lt;/FilterValue1&gt;
+                      &lt;FilterValue2&gt;0&lt;/FilterValue2&gt;
+                      &lt;FilterType&gt;0&lt;/FilterType&gt;
+                    &lt;/SetOperation&gt;
+                  &lt;/Operations&gt;
+                &lt;/MemberSetFormula&gt;
+              &lt;/Value&gt;
+            &lt;/Item&gt;
+          &lt;/SerializableDictionary&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Pages&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Sections&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+      &lt;Axis&gt;
+        &lt;Type&gt;
+          &lt;AxisType xmlns=""&gt;Chapters&lt;/AxisType&gt;
+        &lt;/Type&gt;
+        &lt;FilterEmpty&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/FilterEmpty&gt;
+        &lt;MemberSets&gt;
+          &lt;SerializableDictionary xmlns="" /&gt;
+        &lt;/MemberSets&gt;
+        &lt;PropertyList&gt;
+          &lt;ArrayOfString xmlns="" /&gt;
+        &lt;/PropertyList&gt;
+        &lt;SortMode&gt;
+          &lt;SortType xmlns=""&gt;Off&lt;/SortType&gt;
+        &lt;/SortMode&gt;
+        &lt;SortIndex&gt;
+          &lt;int xmlns=""&gt;0&lt;/int&gt;
+        &lt;/SortIndex&gt;
+        &lt;SortTuple&gt;
+          &lt;Tuple xmlns=""&gt;
+            &lt;MemberDictionary&gt;
+              &lt;SerializableDictionary /&gt;
+            &lt;/MemberDictionary&gt;
+          &lt;/Tuple&gt;
+        &lt;/SortTuple&gt;
+        &lt;SortDescending&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortDescending&gt;
+        &lt;SortPreservePeerGroups&gt;
+          &lt;boolean xmlns=""&gt;false&lt;/boolean&gt;
+        &lt;/SortPreservePeerGroups&gt;
+      &lt;/Axis&gt;
+    &lt;/Axes&gt;
+    &lt;IsEnabled xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;true&lt;/IsEnabled&gt;
+    &lt;UnknownFilterParameter xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;false&lt;/UnknownFilterParameter&gt;
+    &lt;ShowDatasourceFormatting xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query"&gt;true&lt;/ShowDatasourceFormatting&gt;
+    &lt;DataSourceLocation ItemUrl="/Data Connections/3_.000" ItemType="DataSource" ItemGuid="5ec2a5c7-11cc-4774-b8ed-750ee9bf5a6c" SpSiteCollectionGuid="47c43364-9a0e-411c-8f4d-7f6a5f1618d4" SpSiteGuid="2490f91b-a2dc-435a-9e1b-87fed6f07d21" SpListGuid="3e7a69c7-8f96-433f-93c9-17b96c3affbd" xmlns="http://schemas.microsoft.com/performancepoint/2007/03/query" /&gt;
+  &lt;/QueryState&gt;
+  &lt;ReportViewData&gt;&amp;lt;?xml version="1.0" encoding="utf-16"?&amp;gt;
+&amp;lt;AnalyticChartReportView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;NumericFormats /&amp;gt;
+  &amp;lt;Font&amp;gt;
+    &amp;lt;FontFamily&amp;gt;Tahoma&amp;lt;/FontFamily&amp;gt;
+    &amp;lt;GraphicsUnit&amp;gt;Point&amp;lt;/GraphicsUnit&amp;gt;
+    &amp;lt;Size&amp;gt;8&amp;lt;/Size&amp;gt;
+    &amp;lt;Style&amp;gt;Regular&amp;lt;/Style&amp;gt;
+  &amp;lt;/Font&amp;gt;
+  &amp;lt;FontColor&amp;gt;NamedColor:Black&amp;lt;/FontColor&amp;gt;
+  &amp;lt;BackgroundColor&amp;gt;NamedColor:White&amp;lt;/BackgroundColor&amp;gt;
+  &amp;lt;PlotAreaBackColor&amp;gt;ARGBColor:255:255:255:255&amp;lt;/PlotAreaBackColor&amp;gt;
+  &amp;lt;Legend&amp;gt;
+    &amp;lt;BackColor&amp;gt;ARGBColor:255:255:255:255&amp;lt;/BackColor&amp;gt;
+    &amp;lt;Font&amp;gt;
+      &amp;lt;FontFamily&amp;gt;Tahoma&amp;lt;/FontFamily&amp;gt;
+      &amp;lt;GraphicsUnit&amp;gt;Point&amp;lt;/GraphicsUnit&amp;gt;
+      &amp;lt;Size&amp;gt;8&amp;lt;/Size&amp;gt;
+      &amp;lt;Style&amp;gt;Regular&amp;lt;/Style&amp;gt;
+    &amp;lt;/Font&amp;gt;
+    &amp;lt;FontColor&amp;gt;NamedColor:Black&amp;lt;/FontColor&amp;gt;
+  &amp;lt;/Legend&amp;gt;
+&amp;lt;/AnalyticChartReportView&amp;gt;&lt;/ReportViewData&gt;
+  &lt;ParentReportViewLocation ItemUrl="" /&gt;
+  &lt;ShowInformationBar&gt;false&lt;/ShowInformationBar&gt;
+&lt;/OLAPReportView&gt;</CustomData>
+      <EndPoints>
+        <EndPoint Category="None" UniqueName="[Geography].[Geography]" DisplayName="Geography" AcceptsMultipleFilterLinks="false" />
+        <EndPoint Category="None" UniqueName="[Product].[Product Categories]" DisplayName="Product Categories" AcceptsMultipleFilterLinks="false" />
+      </EndPoints>
+      <BeginPoints />
+    </ReportView>
+  </ReportViewsInWorkspace>
+</ScorecardModel>

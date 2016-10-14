@@ -1,0 +1,12 @@
+http://sp2010/_vti_bin/ListData.svc/$metadata
+http://sp2010/_vti_bin/ListData.svc/Albums?$expand=Artist
+http://sp2010/_vti_bin/ListData.svc/Artists
+http://sp2010/_vti_bin/ListData.svc/Artists(2)
+http://sp2010/_vti_bin/ListData.svc/Artists?$orderby=Title
+http://sp2010/_vti_bin/ListData.svc/Artists(2)
+http://sp2010/_vti_bin/ListData.svc/Albums(1)?$expand=Artist
+http://sp2010/_vti_bin/ListData.svc/Songs?$top=3
+http://sp2010/_vti_bin/ListData.svc/Songs?$skip=3&top=3
+http://sp2010/_vti_bin/ListData.svc/Songs?$filter=Artist/Title eq ‘Madonna’
+http://sp2010/_vti_bin/ListData.svc/Songs?$filter=Title eq 'Careless Whisper'
+http://sp2010/_vti_bin/ListData.svc/Songs?$filter=Artist/Title eq 'George Michael'
